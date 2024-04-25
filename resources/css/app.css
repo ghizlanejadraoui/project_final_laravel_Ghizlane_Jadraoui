@@ -1,0 +1,244 @@
+*{
+    font-family: "../../public/fonts/Raleway-VariableFont_wght.ttf";
+}
+body{
+    background-image: url(/public/build/assets/images/bg-resto3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+navbar1{
+    background-color: rgba(0, 0, 0, 0.671) !important;
+color: rgba(255, 255, 255, 0.829) !important;
+}
+/** sec 1 */
+section{
+    background-color: rgba(255, 255, 255, 0.263);
+    font-size: medium;
+}
+.sec1 button{
+    /* background-color: black; */
+    border: none;
+    border-start-start-radius: 10px ;
+    border-end-start-radius: 10px ;
+    border-start-end-radius: 25px ;
+    border-end-end-radius: 5px ;
+    color: white;
+    padding: 10px;
+}
+.sec1 h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: black;
+}
+
+.btnNav{
+display: flex !important; 
+align-items: center !important;
+align-content: center !important;
+background-color: none !important;
+height: 40px;
+text-align: center !important;
+
+
+}
+.us .dropdown-toggle::after{
+    margin-left: 1.5rem !important;
+    padding: 0 !important;
+    text-align: center !important;
+
+}
+.us .dropdown{
+text-align: center !important;
+}
+
+/*& sec 2 */
+/* .sec2{
+    background-color: rgba(255, 255, 255, 0.522);
+    font-size: medium;
+} */
+.story{
+    justify-content: center;
+    align-items: center;
+}
+
+.story img:hover{
+    transform: scale(1.1);
+}
+.down{
+    margin-top: 50px;
+}
+.sec2 a{
+    font-size: large;
+    font-weight: bold;
+}
+
+/*! sec 3 */
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px;
+}
+.sec3 .card{
+    width: 300px;
+}
+.sec3 .card-body{
+    background-color: rgb(23, 23, 23) !important;
+    color: rgba(255, 255, 255, 0.805);
+}
+
+/** sec 4 */
+.sec4 a{
+    font-size: large;
+    font-weight: bold;
+}
+
+/*& sec 5 */
+.sec5 .card{
+    background-color: rgba(0, 0, 0, 0.853) !important;
+    border: none;
+    color: rgba(255, 255, 255, 0.681);
+}
+/* .sec5 .card-body{
+    background-color: rgba(255, 255, 255, 0.049) !important;
+    color: black;
+} */
+
+/* ! sec7 */
+.sec7{
+    background-color: rgba(0, 0, 0, 0.626) !important;
+    color: rgba(255, 255, 255, 0.805);
+    padding: 30px;
+}
+.sec7div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* * footer */
+
+.sec6{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    color: rgba(255, 255, 255, 0.853);
+    background-color: rgba(0, 0, 0, 0.853) !important;
+}
+
+
+/* ********************************************  page contact us style   ************************************************* */
+.ctsc1{
+    height: 50vh;
+    align-content: center;
+}
+.ctsc2{
+    background-color: rgba(0, 0, 0, 0.503);
+    color: rgba(255, 255, 255, 0.853);
+    align-items: center;
+    align-content: center;
+}
+.cth1{
+    font-weight: 900px;
+    font-size: 3.5vw;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.blsc3{
+    background-color: rgba(0, 0, 0, 0.034);
+color: rgba(255, 255, 255, 0.777);  
+}
+
+.blsc3 form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* width: 400px; */
+}
+
+
+/* ********************************************  page register style   ************************************************* */
+
+.regis .modal-content{
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.214) !important;
+    color: rgba(255, 255, 255, 0.788) !important;
+}
+.regis .modal-body div{
+    display: flex;
+    flex-direction: column;
+}
+.regis .modal-body input{
+    border-radius: 15px;
+    padding: 8px;
+}
+.regis button{
+    border: none !important;
+    outline: none;
+    border-radius: 10px;
+    width: 150px;
+    color: black !important;
+    
+}
+
+.Pgregister{
+    align-items: center;
+    background-color: rgba(158, 156, 156, 0.07) !important;
+    color: rgba(255, 255, 255, 0.788) !important;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.Pgregister input{
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.Pgregister div{
+    display: flex;
+    flex-direction: column;
+}
+
+.Pgregister button{
+    border: none !important;
+    outline: none;
+    border-radius: 10px;
+    width: 150px;
+    color: black !important;
+    
+}
+.Pgregister a{
+    text-decoration: none;
+
+}
+.rgsc2{
+    background-color: rgba(0, 0, 0, 0.566);
+
+}
+
+/* ***************** calendar         ********************** */
+
+#calendar{
+    width: 770px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.622);
+    color: white;
+    padding: 20px;
+  
+}
+#calendar a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+#calendar .fc-button-primary{
+    background-color: rgb(205, 205, 9);
+}
