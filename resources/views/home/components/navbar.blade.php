@@ -32,7 +32,7 @@
                         <a class="nav-link" href="/contact">Contact Us</a>
                     </li>
                 </ul>
-                <form class="d-flex gap-2 mx-lg-5" role="search">
+                <div class="d-flex gap-2 mx-lg-5" role="search">
                     @if (auth()->user())
                     <div class="dropdown us">
                         <button class="btn btnNav bg-warning   dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,6 +41,15 @@
                         <ul class="dropdown-menu w-4">
                           <li><a class="dropdown-item" href="{{ route('profile.edit') }}">profile</a></li>
                           <li><a class="dropdown-item" href="#">My Reservation</a></li>
+                          <li> 
+                            <form method="POST" action="{{ route('logout') }}">
+            @csrf
+
+            <button type="submit" class="border-none">
+                {{ __('Log Out') }}
+            </button>
+        </form>
+    </li>
                        
                         </ul>
                       </div>
@@ -122,7 +131,7 @@
                         </div>
                     </div>
                     {{--  --}}
-                </form>
+                </div>
                 {{--  --}}
 
                 {{--  --}}

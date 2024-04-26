@@ -3,7 +3,7 @@
     <div class="d-flex w-full flex-row flex-column-reverse flex-lg-row justify-content-center align-items-center  ">
         {{-- first div --}}
         <div class="w-full d-flex flex-column justify-content-center align-items-center ">
-            <h3 class="">
+            <h3 class="text-warning">
                 Contact US
             </h3>
             <h1 class="cth1 ">We'd love to hear
@@ -17,7 +17,7 @@
     <div class="d-flex w-full flex-row flex-column-reverse flex-lg-row justify-content-evenly align-items-center  ">
         {{-- first div --}}
         <div class="w-full d-flex flex-column gap-3 justify-content-center align-items-center ">
-            <h2 class="">
+            <h2 class="text-warning">
                 Contact
             </h2>
             <h4 class="w-50 text-center">
@@ -59,36 +59,44 @@
     </div>
 </section>
 {{-- section 3 --}}
-<section class=" w-full h-full p-5 ">
+<section class=" w-full h-full p-5 flex-row flex-column-reverse flex-lg-row justify-content-evenly align-items-center">
     <div class="d-flex w-full flex-row flex-column-reverse flex-lg-row justify-content-evenly align-items-center  ">
         {{-- first div --}}
-        <div class="w-full d-flex flex-column gap-3 justify-content-center align-items-center ">
-            <h2 class="">
+        <div class=" d-flex flex-column gap-3 justify-content-center align-items-center ">
+            <h2 class="text-warning">
                 Contact Get in touch!
             </h2>
-            <h4 class="w-50 text-center">
-                Have a question? Concern? Request? We’d 
+            <h4 class="w-50 text-center f">
+                Have a question? Concern? Request? We’d
                 love to hear from you. Connect with us through the following ways.
             </h4>
-            <form class="w-50">
+            <form class="w-50 contactbg p-3">
                 <div class="mb-3">
-                  <label for="name" class="form-label">Full Name</label>
-                  <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Full Name">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
+                        placeholder="Full Name">
                 </div>
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Your Email">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Your Email">
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
-                    <textarea type="message" class="form-control" id="message" aria-describedby="messageHelp" placeholder="Your Message">
+                    <textarea type="message" class="form-control" id="message" aria-describedby="messageHelp"
+                        placeholder="Your Message">
 
-                    </textarea> 
+                    </textarea>
 
                 </div>
                 <button type="submit" class="btn btn-warning">Send</button>
-              </form>        
-            </div>
+            </form>
+        </div>
+{{-- div 2 --}}
+<div class="w-50">
+  <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13295.99628170019!2d-7.539901435375194!3d33.57937339550532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cbea4f73f86d%3A0x886bdf7aa1cbdb3c!2sLa%20Table%20de%20Yacout!5e0!3m2!1sfr!2sma!4v1714087280995!5m2!1sfr!2sma" width="600" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
     </div>
 </section>
 

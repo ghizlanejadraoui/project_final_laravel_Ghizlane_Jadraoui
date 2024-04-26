@@ -39,13 +39,13 @@ class CalendarController extends Controller
             "name" => $request->title,
             "dateStart" => $request->dateStart,
             "timeStart" => $request->timeStart,
-            "dateEnd" => $request->dateEnd,
+            // "dateEnd" => $request->dateEnd,
             "timeEnd" => $request->timeEnd
         ];
 
         Calendar::create($data);
 
-        return back();
+        return view("calendar.calendar");
     }
 
     /**
@@ -62,7 +62,7 @@ class CalendarController extends Controller
                 "start" => $start,
                 "end" => $end,
                 "title" => $event->name,
-                "color" => "#000",
+                "background" => "#ccdff",
                 
                 
                 

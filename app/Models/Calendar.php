@@ -13,7 +13,7 @@ class Calendar extends Model
         "name",
         "dateStart",
         "timeStart",
-        "dateEnd",
+        // "dateEnd",
         "timeEnd"
     ];
 }

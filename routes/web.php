@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CalendarController;
+use App\Http\Controllers\MenuController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,6 +20,7 @@ Route::get('/reservation', function () {
 Route::get('/calendar',[CalendarController::class , "index"]);
 Route::post("/calendar/store" , [CalendarController::class , "store"]);
 Route::get("/calendar/show" , [CalendarController::class , "show"]);
+Route::get('/menu',[MenuController::class , "index"]);
 
 
 

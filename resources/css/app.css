@@ -161,6 +161,9 @@ color: rgba(255, 255, 255, 0.777);
    align-items: center;
    /* width: 400px; */
 }
+.contactbg{
+    background-color: rgba(255, 255, 255, 0.227);
+}
 
 
 /* ********************************************  page register style   ************************************************* */
@@ -227,18 +230,31 @@ color: rgba(255, 255, 255, 0.777);
 /* ***************** calendar         ********************** */
 
 #calendar{
-    width: 770px;
-    height: 700px;
+    width: 570px;
+    height: 500px;
     background-color: rgba(0, 0, 0, 0.622);
     color: white;
     padding: 20px;
+    border-radius: 30px;
   
 }
 #calendar a{
     text-decoration: none;
     color: white;
-    font-size: x-large;
+    font-size: large;
 }
 #calendar .fc-button-primary{
     background-color: rgb(205, 205, 9);
+}
+#calendar .fc-event{
+    background-color: rgb(205, 205, 9);
+}
+#calendar .fc-daygrid-event-dot{
+    border-color: white;
+}
+.downcalendar{
+    margin-top: 200px;
+}
+.upcalendar{
+    margin-bottom: 200px;
 }
