@@ -14,8 +14,9 @@ color: rgba(255, 255, 255, 0.829) !important;
 }
 /** sec 1 */
 section{
-    background-color: rgba(255, 255, 255, 0.263);
+    background-color: rgba(121, 119, 119, 0.285);
     font-size: medium;
+    color: white;
 }
 .sec1 button{
     /* background-color: black; */
@@ -257,4 +258,28 @@ color: rgba(255, 255, 255, 0.777);
 }
 .upcalendar{
     margin-bottom: 200px;
+}
+
+/* ******************************page menu */
+.bgmenu{
+    /* background-image: url(/public/build/assets/images/cuisine6.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+background-position: center; */
+background-color: rgba(0, 0, 0, 0.097);
+}
+.shadowmenu{
+
+ box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.514);
+
+}
+.btnmenu{
+    border-radius: 15px;
+}
+.pagination .page-link{
+    background-color: black;
+    color: rgb(236, 236, 33);
+}
+.pagination .page-link:hover{
+    color: black ;
 }

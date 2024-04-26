@@ -8,7 +8,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
@@ -16,7 +16,7 @@
                         <a class="nav-link" href="#">About</a>
                     </li> --}}
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
+                        <a class="nav-link" href="/menu">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/reservation">Reservation</a>
@@ -55,7 +55,7 @@
                       </div>
                         {{-- <a href="{{ route('profile.edit') }}"></a>  --}}
                     @else
-                        <button  class="btn btn-outline-dark" type="submit">Sign in</button>
+                        <button  class="btn btn-outline-dark" type="submit" ><a href="login" class="text-decoration-none text-black">Sign in</a></button>
 
                         <button id="clickMe" type="button" class="btn btn-warning" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">

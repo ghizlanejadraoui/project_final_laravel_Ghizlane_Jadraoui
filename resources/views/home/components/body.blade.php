@@ -9,7 +9,7 @@
             <h1>Great Vibes</h1>
 
             <button class="w-10  border-none outline-none bg-warning">
-                <a class="text-decoration-none text-white" href="/reservation">Make Reservation</a> 
+                <a class="text-decoration-none text-white" href="/reservation">Make Reservation</a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-arrow-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
@@ -348,4 +348,3 @@
         </div>
     </div>
 </section>
-

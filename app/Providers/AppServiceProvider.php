@@ -2,11 +2,13 @@
 
 namespace App\Providers;
 
+use App\Models\Menu;
 use App\Models\RestaurantTable;
 use App\Models\Table;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
+// use Illuminate\Pagination\Paginator;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -25,7 +27,13 @@ class AppServiceProvider extends ServiceProvider
     {
         
         $tables = RestaurantTable::all();
+        $menu = Menu::all();
+        // Paginator::useBootstrap();
 
-        view()->share("tables", $tables );
+        view()->share([
+            "tables"=> $tables,
+            "menu"=> $menu,
+    
+    ]);
     }
 }
