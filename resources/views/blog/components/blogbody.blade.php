@@ -3,9 +3,9 @@
     <div class="d-flex w-full flex-row flex-column-reverse flex-lg-row justify-content-center align-items-center  ">
         {{-- first div --}}
         <div class="w-full d-flex flex-column justify-content-center align-items-center ">
-            <h3 class="">
-                Contact US
-            </h3>
+            <h2 class="text-warning">
+                BLOG
+            </h2>
             <h1 class="blh1 ">We'd love to hear
                 from you</h1>
         </div>

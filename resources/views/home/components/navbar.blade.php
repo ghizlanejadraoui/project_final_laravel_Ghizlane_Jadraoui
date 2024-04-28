@@ -22,9 +22,9 @@
                         <a class="nav-link text-white" href="/reservation">Reservation</a>
                     </li>
 
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link text-white" href="">Online Order</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
                         <a class="nav-link text-white" href="/blog">Blog</a>
                     </li>

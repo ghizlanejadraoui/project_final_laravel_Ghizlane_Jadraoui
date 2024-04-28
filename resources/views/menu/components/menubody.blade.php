@@ -133,7 +133,7 @@
                             </p>
                         </div>
                         <p class="text-decoration-none text-warning">
-                            <form action="/session" method="get">
+                            <form action="{{ route('session')}}" method="get">
                                 @csrf
                                <button>Order Now</button> 
                             </form>
