@@ -31,16 +31,24 @@ class MenuController extends Controller
     public function store(Request $request)
     {
         //
-        $menu = [
-            "name" => $request->title,
-            "description" => $request->description,
-            "price" => $request->price,
-            "image" => $request->image,
-        ];
+        request()->validate([
+            "name"=>'required',
+            "price"=>'required',
+            "description"=>'required',
+            "image"=> "required",
+        ]);
 
-        MenuController::create($menu);
+        $image = $request->file("image");
+        $filename =  $image->hashName();
+        $image->storeAs("public/img/" . $filename);
 
-        return back();
+        Menu::create([
+            "name"=>$request -> name,
+            "price"=>$request -> price,
+            "description"=>$request -> description,
+            "image"=>$filename ,
+        ]);
+        return view("admin.admin");
     }
 
     /**
@@ -65,13 +73,37 @@ class MenuController extends Controller
     public function update(Request $request, Menu $menu)
     {
         //
+        request()->validate([
+            "name"=>'required',
+            "price"=>'required',
+            "description"=>'required',
+            "image" => "required",
+        ]);
+
+        $uploadedFile = $request->file("image");
+        $filename = $uploadedFile->hashName();
+        $uploadedFile->move("storage/img", $filename);
+
+        $menu->update([
+            "name"=>$request->name,
+            "price"=>$request->price,
+            "description"=>$request->description,
+            "image"=>$filename, 
+        ]);
+
+
+        return back();
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Menu $menu)
+    public function destroy($id)
     {
         //
+        $menu = Menu::findOrFail($id);
+        $menu->delete();
+    
+        return redirect()->route('admin.index')->with('success', 'menu deleted successfully.');
     }
 }

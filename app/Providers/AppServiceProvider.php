@@ -27,12 +27,12 @@ class AppServiceProvider extends ServiceProvider
     {
         
         $tables = RestaurantTable::all();
-        $menu = Menu::all();
+        $menus = Menu::all();
         // Paginator::useBootstrap();
 
         view()->share([
             "tables"=> $tables,
-            "menu"=> $menu,
+            "menus"=> $menus,
     
     ]);
     }

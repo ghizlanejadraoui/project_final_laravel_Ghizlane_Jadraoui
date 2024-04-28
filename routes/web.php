@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\ProfileController;
@@ -20,7 +21,12 @@ Route::get('/reservation', function () {
 Route::get('/calendar',[CalendarController::class , "index"]);
 Route::post("/calendar/store" , [CalendarController::class , "store"]);
 Route::get("/calendar/show" , [CalendarController::class , "show"]);
-Route::get('/menu',[MenuController::class , "index"]);
+Route::get('/menu' , [MenuController::class , "index"]);
+Route::post('/menu/store' , [MenuController::class , "store"]);
+Route::patch('/menu/update' , [MenuController::class , "update"]);
+Route::delete('/menu/destroy' , [MenuController::class , "destroy"]);
+Route::delete('/menu/{id}', [MenuController::class , "destroy"])->name('menu.destroy');
+Route::get('/admin',[AdminController::class , "index"])->name('admin.index');
 
 
 

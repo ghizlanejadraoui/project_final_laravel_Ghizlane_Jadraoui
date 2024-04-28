@@ -10,26 +10,26 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
                     </li>
                     {{-- <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li> --}}
                     <li class="nav-item">
-                        <a class="nav-link" href="/menu">Menu</a>
+                        <a class="nav-link text-white" href="/menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/reservation">Reservation</a>
+                        <a class="nav-link text-white" href="/reservation">Reservation</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="">Online Order</a>
+                        <a class="nav-link text-white" href="">Online Order</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/blog">Blog</a>
+                        <a class="nav-link text-white" href="/blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">Contact Us</a>
+                        <a class="nav-link text-white" href="/contact">Contact Us</a>
                     </li>
                 </ul>
                 <div class="d-flex gap-2 mx-lg-5" role="search">
@@ -55,7 +55,7 @@
                       </div>
                         {{-- <a href="{{ route('profile.edit') }}"></a>  --}}
                     @else
-                        <button  class="btn btn-outline-dark" type="submit" ><a href="login" class="text-decoration-none text-black">Sign in</a></button>
+                        <button  class="btn btn-outline-dark" type="submit" ><a href="login" class="text-decoration-none text-white">Sign in</a></button>
 
                         <button id="clickMe" type="button" class="btn btn-warning" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
