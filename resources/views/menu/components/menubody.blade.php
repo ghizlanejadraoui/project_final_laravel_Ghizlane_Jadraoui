@@ -133,7 +133,10 @@
                             </p>
                         </div>
                         <p class="text-decoration-none text-warning">
-                            Order Now
+                            <form action="/session" method="get">
+                                @csrf
+                               <button>Order Now</button> 
+                            </form>
                         </p>
                     </div>
                 </div>

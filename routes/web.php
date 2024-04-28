@@ -4,6 +4,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\StripeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -27,6 +28,8 @@ Route::post('/menu/store' , [MenuController::class , "store"]);
 Route::put('/menu/update/{id}', [MenuController::class , "update"])->name('menu.update');
 Route::delete('/menu/{id}', [MenuController::class , "destroy"])->name('menu.destroy');
 Route::get('/admin',[AdminController::class , "index"])->name('admin.index');
+Route::get('/session',[StripeController::class , "session"]);
+Route::get('/success',[StripeController::class , "session"])->name("success");
 
 
 
