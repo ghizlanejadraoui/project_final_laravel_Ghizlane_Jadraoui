@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Admin;
 use App\Models\Menu;
 use App\Models\RestaurantTable;
 use App\Models\Table;
@@ -28,11 +29,13 @@ class AppServiceProvider extends ServiceProvider
         
         $tables = RestaurantTable::all();
         $menus = Menu::all();
+        $admins = Admin::all();
         // Paginator::useBootstrap();
 
         view()->share([
             "tables"=> $tables,
             "menus"=> $menus,
+            "admins" => $admins,
     
     ]);
     }

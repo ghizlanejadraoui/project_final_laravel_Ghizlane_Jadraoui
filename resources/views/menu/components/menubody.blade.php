@@ -135,7 +135,7 @@
                         <p class="text-decoration-none text-warning">
                             <form action="{{ route('session')}}" method="get">
                                 @csrf
-                               <button>Order Now</button> 
+                               <button class="bg-warning rounded-1 border-0" >Order Now</button> 
                             </form>
                         </p>
                     </div>
@@ -146,9 +146,7 @@
     </div>
     <div class="p-3 ">{{ $menus->links('vendor.pagination.simple-bootstrap-4') }}</div>
 </section>
-
 {{-- section 4 --}}
-
 <section class="sec3 h-full w-full ">
     <div class="w-full d-flex flex-column justify-content-center align-items-center ">
         <h1 class="text-warning">

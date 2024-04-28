@@ -48,14 +48,21 @@ class MenuSeeder extends Seeder
             [
                 "image" => "plat5.jpg",
                 "description" =>"Secure your spot and savor the moment.",
-                "name" => "plat 4",
+                "name" => "plat 5",
                 "price" => 10,
                 "created_at" => Carbon::now()
             ],
             [
                 "image" => "plat2.jpg",
                 "description" =>"Secure your spot and savor the moment.",
-                "name" => "plat 4",
+                "name" => "plat 6",
+                "price" => 10,
+                "created_at" => Carbon::now()
+            ],
+            [
+                "image" => "plat2.jpg",
+                "description" =>"Secure your spot and savor the moment.",
+                "name" => "plat 6",
                 "price" => 10,
                 "created_at" => Carbon::now()
             ],
