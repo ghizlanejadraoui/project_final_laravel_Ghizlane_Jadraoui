@@ -88,7 +88,7 @@
         @foreach ($menus as $menu)
             <div class="col">
                 <div class="card h-100 bg-dark">
-                    <img src="{{ asset($menu->image) }}" height="400px" class="card-img-top" alt="...">
+                    <img src="{{ asset('storage/img/' . $menu->image) }}" height="400px" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ $menu->name }}</h5>
                         <p class="card-text">{{ $menu->description }}</p>

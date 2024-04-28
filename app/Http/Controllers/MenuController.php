@@ -70,29 +70,35 @@ class MenuController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Menu $menu)
+    public function update(Request $request, $id)
     {
         //
-        request()->validate([
-            "name"=>'required',
-            "price"=>'required',
-            "description"=>'required',
-            "image" => "required",
+        $request->validate([
+            "name" => 'required',
+            "price" => 'required|numeric',
+            "description" => 'required',
+            "image" => "nullable|image",
         ]);
+    
+        $menu = Menu::findOrFail($id);
+    
+        $menu->name = $request->input('name');
+        $menu->price = $request->input('price');
+        $menu->description = $request->input('description');
+    
+        // Check if a new image file is provided
+        if ($request->hasFile('image')) {
+            $uploadedFile = $request->file("image");
+            $filename = $uploadedFile->hashName();
+            $uploadedFile->storeAs("public/img", $filename);
+            $menu->image = $filename;
+        }
+    
+        $menu->save();
+    
+        return redirect()->route('admin.index');
+        // 
 
-        $uploadedFile = $request->file("image");
-        $filename = $uploadedFile->hashName();
-        $uploadedFile->move("storage/img", $filename);
-
-        $menu->update([
-            "name"=>$request->name,
-            "price"=>$request->price,
-            "description"=>$request->description,
-            "image"=>$filename, 
-        ]);
-
-
-        return back();
     }
 
     /**
@@ -104,6 +110,6 @@ class MenuController extends Controller
         $menu = Menu::findOrFail($id);
         $menu->delete();
     
-        return redirect()->route('admin.index')->with('success', 'menu deleted successfully.');
+        return redirect()->route('admin.index');
     }
 }

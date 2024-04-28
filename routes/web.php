@@ -23,8 +23,8 @@ Route::post("/calendar/store" , [CalendarController::class , "store"]);
 Route::get("/calendar/show" , [CalendarController::class , "show"]);
 Route::get('/menu' , [MenuController::class , "index"]);
 Route::post('/menu/store' , [MenuController::class , "store"]);
-Route::patch('/menu/update' , [MenuController::class , "update"]);
-Route::delete('/menu/destroy' , [MenuController::class , "destroy"]);
+// Route::patch('/menu/update' , [MenuController::class , "update"]);
+Route::put('/menu/update/{id}', [MenuController::class , "update"])->name('menu.update');
 Route::delete('/menu/{id}', [MenuController::class , "destroy"])->name('menu.destroy');
 Route::get('/admin',[AdminController::class , "index"])->name('admin.index');
 
