@@ -31,6 +31,12 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="/contact">Contact Us</a>
                     </li>
+                    @role("admin")
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/admin">Admin</a>
+                    </li>
+
+                    @endrole
                 </ul>
                 <div class="d-flex gap-2 mx-lg-5" role="search">
                     @if (auth()->user())
@@ -42,10 +48,10 @@
                           <li><a class="dropdown-item" href="{{ route('profile.edit') }}">profile</a></li>
                           <li><a class="dropdown-item" href="#">My Reservation</a></li>
                           <li> 
-                            <form method="POST" action="{{ route('logout') }}">
+                            <form class="dropdown-item" method="POST" action="{{ route('logout') }}">
             @csrf
 
-            <button type="submit" class="border-none">
+            <button type="submit" class="border-0 d-flex align-items-center">
                 {{ __('Log Out') }}
             </button>
         </form>

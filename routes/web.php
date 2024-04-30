@@ -27,7 +27,7 @@ Route::post('/menu/store' , [MenuController::class , "store"]);
 // Route::patch('/menu/update' , [MenuController::class , "update"]);
 Route::put('/menu/update/{id}', [MenuController::class , "update"])->name('menu.update');
 Route::delete('/menu/{id}', [MenuController::class , "destroy"])->name('menu.destroy');
-Route::get('/admin',[AdminController::class , "index"])->name('admin.index');
+Route::get('/admin',[AdminController::class , "index"])->name('admin.index')->middleware("role:admin");
 Route::get('/session',[StripeController::class , "session"])->name("session");
 Route::get('/success',[StripeController::class , "session"])->name("success");
 
