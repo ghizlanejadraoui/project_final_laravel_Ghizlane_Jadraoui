@@ -2,7 +2,7 @@
     font-family: "../../public/fonts/Raleway-VariableFont_wght.ttf";
 }
 body{
-    background-image: url(/public/build/assets/images/bg-resto3.webp);
+    background-image: url(/public/assets/images/bg-resto3.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

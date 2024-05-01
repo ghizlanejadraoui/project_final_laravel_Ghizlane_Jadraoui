@@ -2,8 +2,8 @@
 <section class="sec1 w-full h-full p-4 ">
     <div class="d-flex w-full flex-row flex-column-reverse flex-lg-row ">
         <div class="w-25 d-flex flex-column h-full justify-content-between">
-            <img class=" " width=" 250px" src="{{ asset('build/assets/images/bgmenu1.png') }}" alt="">
-            <img class="" width=" 300px" src="{{ asset('build/assets/images/bgmenu5.png') }}" alt="">
+            <img class=" " width=" 250px" src="{{ asset('assets/images/bgmenu1.png') }}" alt="">
+            <img class="" width=" 300px" src="{{ asset('assets/images/bgmenu5.png') }}" alt="">
         </div>
         {{--  div 2 --}}
         <div class="w-50 d-flex  flex-column h-auto justify-content-center align-items-center ">
@@ -23,7 +23,7 @@
         </div>
         {{--  dev 3 --}}
         <div class="w-25 d-flex">
-            <img class="" width=" 380px" src="{{ asset('build/assets/images/bgmenu3.png') }}" alt="">
+            <img class="" width=" 380px" src="{{ asset('assets/images/bgmenu3.png') }}" alt="">
         </div>
     </div>
 </section>
@@ -50,7 +50,7 @@
                 </p>
             </div>
             {{-- <a href="./directory/yourfile.pdf" >Download the pdf</a> --}}
-            <a class="text-decoration-none text-bold text-dark bg-warning p-2 btnmenu" download href="{{ asset("build/assets/pdf/menu.pdf") }}">
+            <a class="text-decoration-none text-bold text-dark bg-warning p-2 btnmenu" download href="{{ asset("assets/pdf/menu.pdf") }}">
                 Menu
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-arrow-right" viewBox="0 0 16 16">
@@ -62,8 +62,8 @@
         </div>
         {{-- second dev --}}
         <div class="w-50 d-lg-flex justify-content-evenly ">
-            <img class="shadowmenu" src="{{ asset('build/assets/images/sc1Menu.jpg') }}" width="300px" alt="">
-            <img src="{{ asset('build/assets/images/sc1Menu2.jpg') }}" width="300px" alt="">
+            <img class="shadowmenu" src="{{ asset('assets/images/sc1Menu.jpg') }}" width="300px" alt="">
+            <img src="{{ asset('assets/images/sc1Menu2.jpg') }}" width="300px" alt="">
         </div>
     </div>
 </section>

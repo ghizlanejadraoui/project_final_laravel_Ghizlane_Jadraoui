@@ -19,7 +19,7 @@
         </div>
         {{-- second dev --}}
         <div class="w-50">
-            <img class=" " width=" 680px" src="{{ asset('build/assets/images/plat02.svg') }}" alt="">
+            <img class=" " width=" 680px" src="{{ asset('assets/images/plat02.svg') }}" alt="">
         </div>
     </div>
 </section>
@@ -31,12 +31,12 @@
         {{-- first div --}}
         <div class="story w-50 d-lg-flex ">
             <div class="d-flex flex-column align-items-center">
-                <img class=" " src="{{ asset('build/assets/images/story3.jpg') }}" alt="">
-                <img class=" " src="{{ asset('build/assets/images/story6.jpg') }}" alt="">
+                <img class=" " src="{{ asset('assets/images/story3.jpg') }}" alt="">
+                <img class=" " src="{{ asset('assets/images/story6.jpg') }}" alt="">
             </div>
             <div class="down d-flex flex-column align-items-center">
-                <img class=" " src="{{ asset('build/assets/images/story2.jpg') }}" alt="">
-                <img class=" " src="{{ asset('build/assets/images/story4.jpg') }}" alt="">
+                <img class=" " src="{{ asset('assets/images/story2.jpg') }}" alt="">
+                <img class=" " src="{{ asset('assets/images/story4.jpg') }}" alt="">
             </div>
         </div>
         {{-- second dev --}}
@@ -74,7 +74,7 @@
     <div class="row row-cols-1 row-cols-md-4 g-3">
         <div class="col">
             <div class="card h-100 bg-dark">
-                <img src="{{ asset('build/assets/images/plat8.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('assets/images/plat8.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Pan-Seared Cod</h5>
                     <p class="card-text">Pan-Seared Cod with Wasabi Sweet Potato Mash and Miso Glaze.</p>
@@ -119,7 +119,7 @@
         </div>
         <div class="col">
             <div class="card h-100 bg-dark">
-                <img src="{{ asset('build/assets/images/plat13.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('assets/images/plat13.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Pork Belly With Baked Radish</h5>
                     <p class="card-text">Pork Belly With Baked Radish, Carrot Puree and Caramelized.</p>
@@ -164,7 +164,7 @@
         </div>
         <div class="col">
             <div class="card h-100 bg-dark">
-                <img src="{{ asset('build/assets/images/plat3.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('assets/images/plat3.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Mushroom Dusted Halibut</h5>
                     <p class="card-text">Mushroom Dusted Halibut, cubes of roasted pork belly with crispy skin.</p>
@@ -209,7 +209,7 @@
         </div>
         <div class="col">
             <div class="card h-100 bg-dark">
-                <img src="{{ asset('build/assets/images/plat14.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('assets/images/plat14.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Roasted pumpkin, Rucola</h5>
                     <p class="card-text">Roasted pumpkin, Rucola with sour cream and chive mayonnaise .</p>
@@ -283,7 +283,7 @@
         {{-- second dev --}}
         <div class=" w-50 d-lg-flex ">
             <div class="d-flex  align-items-center">
-                <img class=" " src="{{ asset('build/assets/images/menu5.png') }}" alt="">
+                <img class=" " src="{{ asset('assets/images/menu5.png') }}" alt="">
             </div>
         </div>
     </div>
@@ -321,7 +321,7 @@
     <div class="row row-cols-1 row-cols-md-4 g-3">
         <div class="col">
             <div class="card h-100 ">
-                <img src="{{ asset('build/assets/images/chef1.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('assets/images/chef1.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-warning">Ferran Adrià</h5>
                     <p class="card-text">Head chef.</p>
@@ -331,7 +331,7 @@
         </div>
         <div class="col">
             <div class="card h-100 ">
-                <img src="{{ asset('build/assets/images/chef5.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('assets/images/chef5.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-warning">Annabel Langbein</h5>
                     <p class="card-text">Postry chef</p>
@@ -341,7 +341,7 @@
         </div>
         <div class="col">
             <div class="card h-100 ">
-                <img src="{{ asset('build/assets/images/chef3.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('assets/images/chef3.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-warning">Myrtle Allen</h5>
                     <p class="card-text">station chef</p>
@@ -351,7 +351,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <img src="{{ asset('build/assets/images/chef4.jpg') }}" class="card-img-top" alt="...">
+                <img src="{{ asset('assets/images/chef4.jpg') }}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-warning">Reed Alexander</h5>
                     <p class="card-text">Head chef</p>

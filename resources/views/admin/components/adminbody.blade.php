@@ -58,7 +58,7 @@
         </div>
 {{-- div 2 --}}
 <div class="w-50 d-flex align-items-center">
-    <img src="{{ asset("build/assets/images/add post.jpg") }}" class="" width="300px" alt="">
+    <img src="{{ asset("assets/images/add post.jpg") }}" class="" width="300px" alt="">
 </div>
 
     </div>

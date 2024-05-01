@@ -17,14 +17,14 @@ class RestaurantTableSeeder extends Seeder
         //
         RestaurantTable::insert([
             [
-                "image" =>  "build/assets/images/table9.jpg",
+                "image" =>  "assets/images/table9.jpg",
                 "description" =>"Secure your spot and savor the moment.",
                 "table_number" => 10,
                 "capacity" => 4,
                 "created_at" => Carbon::now()
             ],
             [
-                "image" => "build/assets/images/table10.jpg ",
+                "image" => "assets/images/table10.jpg ",
                 "description" =>"Secure your spot and savor the moment.",
 
                 "table_number" => 15,
@@ -32,14 +32,14 @@ class RestaurantTableSeeder extends Seeder
                 "created_at" => Carbon::now()
             ],
             [
-                "image" => "build/assets/images/table12.jpg ",
+                "image" => "assets/images/table12.jpg ",
                 "description" =>"Secure your spot and savor the moment.",
                 "table_number" => 20,
                 "capacity" => 1,
                 "created_at" => Carbon::now()
             ],
             [
-                "image" => "build/assets/images/table2.jpg",
+                "image" => "assets/images/table2.jpg",
                 "description" =>"Secure your spot and savor the moment.",
                 "table_number" => 15,
                 "capacity" => 10,
