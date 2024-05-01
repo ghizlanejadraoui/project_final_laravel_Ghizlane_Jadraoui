@@ -7,10 +7,10 @@
         </div>
         {{--  div 2 --}}
         <div class="w-50 d-flex  flex-column h-auto justify-content-center align-items-center ">
-            <h1 class="text-warning">
-                Fast <span class="text-white">TASTY,</span>
+            <h1 class="text-black">
+                FAST TASTY,
             </h1>
-            <h1 class="text-warning"><span class="text-white">SERVED</span> WELL</h1>
+            <h1 class="text-black">SERVED WELL</h1>
 
             <button class="w-10  border-none outline-none bg-warning">
                 <a class="text-decoration-none text-white" href="/reservation">Make Reservation</a>
@@ -35,22 +35,17 @@
             <h1 class="text-warning ">
                 OUR MENU
             </h1>
-            <div class="d-flex fw-bolder  justify-content-between w-full">
+            <div class="d-flex  justify-content-between w-full gap-3">
 
-                <p class="w-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <p class="w-50 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     blanditiis animi illo aut veniam deleniti illum pariatur corrupti temporibus fugit cumque quos,
                     repellat accusamus quasi rerum perspiciatis earum ipsum ad distinctio culpa consectetur adipisci.
-                    Reprehenderit hic ipsum amet, molestiae quia aspernatur. Quam vero ad esse suscipit! Ducimus
-                    mollitia
-                    aperiam quae doloremque,
-
+                    Reprehenderit hic ipsum amet, Lorem ipsum dolor sit amet Lorem.
                 </p>
-                <p class="w-50 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <p class="w-50 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     blanditiis animi illo aut veniam deleniti illum pariatur corrupti temporibus fugit cumque quos,
                     repellat accusamus quasi rerum perspiciatis earum ipsum ad distinctio culpa consectetur adipisci.
-                    Reprehenderit hic ipsum amet, molestiae quia aspernatur. Quam vero ad esse suscipit! Ducimus
-                    mollitia
-                    aperiam quae doloremque,
+                    Reprehenderit hic ipsum amet, Lorem ipsum dolor sit amet Lorem.
 
                 </p>
             </div>
@@ -147,7 +142,7 @@
     <div class="p-3 ">{{ $menus->links('vendor.pagination.simple-bootstrap-4') }}</div>
 </section>
 {{-- section 4 --}}
-<section class="sec3 h-full w-full ">
+<section class="sec3 h-full w-full d-flex flex-column gap-5 ">
     <div class="w-full d-flex flex-column justify-content-center align-items-center ">
         <h1 class="text-warning">
             HOW IT WORKS
@@ -155,36 +150,73 @@
     </div>
 
     <div class="row row-cols-1 row-cols-md-3 g-3 text-center text-white">
-
-
-
-        <div class="col">
+        <div class="col d-flex flex-column align-items-center w-full align-content-center">
             <p class="text-warning fw-bolder text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-cup-hot-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5"/>
-                    <path d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8"/>
-                  </svg>
-                </p>
-            <p class="fw-bolder fs-2">Lorem, ipsum dolor.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus.</p>
+                <svg class="text-black" xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-cup-straw" viewBox="0 0 16 16">
+                    <path d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82q0 .069-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87s-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A1 1 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278M9.768 4.607A14 14 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.3 3.3 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a6 6 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69s2.081-.441 2.438-.69c.042-.029.09-.094.102-.215l.852-8.03a6 6 0 0 1-.435.127 9 9 0 0 1-.89.17zM4.467 4.884s.003.002.005.006zm7.066 0-.005.006zM11.354 5a3 3 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222"/>
+                  </svg>                </p>
+            <p class="fw-bolder fs-2 text-warning">Lorem, ipsum dolor.</p>
+            <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus.</p>
         </div>
-        <div class="col">
+        <div class="col d-flex flex-column align-items-center w-full align-content-center">
             <p class="text-warning fw-bolder text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+                <svg class="text-black" xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
                     <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5M4 15h3v-5H4zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zm3 0h-2v3h2z"/>
                   </svg></p>
-                  <p class="fw-bolder fs-2">Lorem, ipsum dolor.</p>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus.</p>
+                  <p class="fw-bolder fs-2 text-warning">Lorem, ipsum dolor.</p>
+                  <p class="w-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus.</p>
         </div>
-        <div class="col">
+        <div class="col d-flex flex-column align-items-center w-full align-content-center">
             <p class="text-warning fw-bolder text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                <svg class="text-black" xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
                 <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
-              </svg></p>
-              <p class="fw-bolder fs-2">Lorem, ipsum dolor.</p>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus.</p>
+              </svg>
+            </p>
+              <p class="fw-bolder fs-2 text-warning">Lorem, ipsum dolor.</p>
+              <p class="w-50 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, doloribus.</p>
         </div>
 
+
+    </div>
+</section>
+{{-- section 5 --}}
+<section class=" w-full h-full p-5 flex-row flex-column-reverse flex-lg-row justify-content-evenly align-items-center">
+    <div class="d-flex w-full flex-row flex-column-reverse flex-lg-row justify-content-evenly align-items-center  ">
+        {{-- first div --}}
+        <div class=" d-flex flex-column gap-3 justify-content-center align-items-center ">
+            <h2 class="text-warning">
+                Contact Get in touch!
+            </h2>
+            <h4 class="w-50 text-center f">
+                Have a question? Concern? Request? We’d
+                love to hear from you. Connect with us through the following ways.
+            </h4>
+            <form class="w-50 contactbg p-3">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
+                        placeholder="Full Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea type="message" class="form-control" id="message" aria-describedby="messageHelp"
+                        placeholder="Your Message">
+
+                    </textarea>
+
+                </div>
+                <button type="submit" class="btn btn-warning">Send</button>
+            </form>
+        </div>
+{{-- div 2 --}}
+<div class="w-50">
+    <img src="" alt="">
+</div>
 
     </div>
 </section>
