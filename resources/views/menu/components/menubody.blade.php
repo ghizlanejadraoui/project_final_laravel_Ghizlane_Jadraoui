@@ -128,7 +128,7 @@
                             </p>
                         </div>
                         <p class="text-decoration-none text-warning">
-                            <form action="{{ route('session')}}" method="get">
+                            <form action="{{ route('session' , $menu)}}" method="get">
                                 @csrf
                                <button class="bg-warning rounded-1 border-0" >Order Now</button> 
                             </form>
@@ -214,8 +214,8 @@
             </form>
         </div>
 {{-- div 2 --}}
-<div class="w-50">
-    <img src="" alt="">
+<div class="w-50 d-lg-flex justify-content-evenly ">
+    <img class="shadowmenu" src="{{ asset('assets/images/package3.jpg') }}" width="300px" alt="">
 </div>
 
     </div>

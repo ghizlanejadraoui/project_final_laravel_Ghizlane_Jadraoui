@@ -14,7 +14,7 @@ color: rgba(255, 255, 255, 0.829) !important;
 }
 /** sec 1 */
 section{
-    background-color: rgba(197, 194, 194, 0.137);
+    background-color: rgba(197, 194, 194, 0.193);
     font-size: medium;
     color: white;
 }
@@ -66,6 +66,7 @@ text-align: center !important;
 
 .story img:hover{
     transform: scale(1.1);
+    transition: all !important;
 }
 .down{
     margin-top: 50px;
