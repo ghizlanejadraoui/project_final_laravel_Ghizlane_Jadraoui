@@ -107,9 +107,9 @@
                             </svg>
                         </p>
                         <p class="text-decoration-none text-warning">
-                            <form action="{{ route('session')}}" method="get">
+                            <form>
                                 @csrf
-                               <button class="bg-warning rounded-1 border-0" >Order Now</button> 
+                               <button class="bg-warning rounded-1 border-0" ><a class="text-decoration-none text-black" href="{{ route("menu") }}">Order Now</a></button> 
                             </form>
                         </p>
                     </div>
@@ -152,9 +152,9 @@
                             </svg>
                         </p>
                         <p class="text-decoration-none text-warning">
-                            <form action="{{ route('session')}}" method="get">
+                            <form >
                                 @csrf
-                               <button class="bg-warning rounded-1 border-0" >Order Now</button> 
+                               <button class="bg-warning rounded-1 border-0" ><a class="text-decoration-none text-black" href="{{ route("menu") }}">Order Now</a></button> 
                             </form>
                         </p>
                     </div>
@@ -197,9 +197,9 @@
                             </svg>
                         </p>
                         <p class="text-decoration-none text-warning">
-                            <form action="{{ route('session')}}" method="get">
+                            <form >
                                 @csrf
-                               <button class="bg-warning rounded-1 border-0" >Order Now</button> 
+                               <button class="bg-warning rounded-1 border-0" ><a class="text-decoration-none text-black" href="{{ route("menu") }}">Order Now</a></button> 
                             </form>
                         </p>
                     </div>
@@ -242,9 +242,9 @@
                             </svg>
                         </p>
                         <p class="text-decoration-none text-warning">
-                            <form action="{{ route('session')}}" method="get">
+                            <form >
                                 @csrf
-                               <button class="bg-warning rounded-1 border-0" >Order Now</button> 
+                               <button class="bg-warning rounded-1 border-0" ><a class="text-decoration-none text-black" href="{{ route("menu") }}">Order Now</a></button> 
                             </form>
                         </p>
                     </div>

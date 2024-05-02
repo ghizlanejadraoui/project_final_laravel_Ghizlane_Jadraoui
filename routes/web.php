@@ -22,7 +22,7 @@ Route::get('/reservation', function () {
 Route::get('/calendar',[CalendarController::class , "index"]);
 Route::post("/calendar/store" , [CalendarController::class , "store"]);
 Route::get("/calendar/show" , [CalendarController::class , "show"]);
-Route::get('/menu' , [MenuController::class , "index"]);
+Route::get('/menu' , [MenuController::class , "index"])->name('menu');
 Route::post('/menu/store' , [MenuController::class , "store"]);
 // Route::patch('/menu/update' , [MenuController::class , "update"]);
 Route::put('/menu/update/{id}', [MenuController::class , "update"])->name('menu.update');
