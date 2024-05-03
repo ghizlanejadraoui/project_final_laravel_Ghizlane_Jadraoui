@@ -143,7 +143,7 @@
         </div>
 {{-- div 2 --}}
 <div class="w-50">
-  <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13295.99628170019!2d-7.539901435375194!3d33.57937339550532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cbea4f73f86d%3A0x886bdf7aa1cbdb3c!2sLa%20Table%20de%20Yacout!5e0!3m2!1sfr!2sma!4v1714087280995!5m2!1sfr!2sma" width="600" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13295.99628170019!2d-7.539901435375194!3d33.57937339550532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cbea4f73f86d%3A0x886bdf7aa1cbdb3c!2sLa%20Table%20de%20Yacout!5e0!3m2!1sfr!2sma!4v1714087280995!5m2!1sfr!2sma" width="600" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
     </div>
